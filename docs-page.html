@@ -46,19 +46,19 @@
 				<div class="docs-top-utilities d-flex justify-content-end align-items-center">
 					<div class="top-search-box d-none d-lg-flex">
 						<form class="search-form">
-							<input type="text" placeholder="Search the TeleLiman..." name="search"
+							<input type="text" placeholder="TeleLiman'da Ara..." name="search"
 								class="form-control search-input">
-							<button type="submit" class="btn search-btn" value="Search"><i
+							<button type="submit" class="btn search-btn" value="Ara"><i
 									class="fas fa-search"></i></button>
 						</form>
 					</div>
 
 					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/TeleLiman"><i class="fab fa-github fa-fw"></i></a></li>
 					</ul>
 					<!--//social-list-->
-					<a href="#Buraya Liman MYS kodumuzu nasıl indirebilinecek sayfa gelcek"
-						class="btn btn-primary d-none d-lg-flex">Download</a>
+					<a href="https://github.com/TeleLiman/TelelimanExtension/raw/main/TeleLiman-0.0.1.lmne"
+						class="btn btn-primary d-none d-lg-flex">İndir</a>
 				</div>
 				<!--//docs-top-utilities-->
 			</div>
@@ -81,14 +81,14 @@
 			<nav id="docs-nav" class="docs-nav navbar">
 				<ul class="section-items list-unstyled nav flex-column pb-3">
 					<li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
-								class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a>
+								class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Giriş</a>
 					</li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Bu Uygulama Nedir?</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Uygulamanın avantajları
 							nelerdir?</a></li>
 
 					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
-								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a>
+								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Kurulum</a>
 					</li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Telegram Botunun Ayarlanması</a>
 					</li>
@@ -114,7 +114,7 @@
 				</ul>
 
 				<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span
-							class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Eklenebilecekler</a>
+							class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Grlecek Sürümler</a>
 				</li>
 
 				</ul>
@@ -126,7 +126,7 @@
 			<div class="container">
 				<article class="docs-article" id="section-1">
 					<header class="docs-header">
-						<h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 17.05.2022</span>
+						<h1 class="docs-heading">Giriş <span class="docs-time">Son Güncelleme: 17.05.2022</span>
 						</h1>
 						<section class="docs-intro">
 							<p> Uygulama LimanMYS kullanıcılarının telefon üzerinden hızlı bir şekilde daha öncesinde
@@ -215,7 +215,7 @@
 
 			<article class="docs-article" id="section-2">
 				<header class="docs-header">
-					<h1 class="docs-heading">Installation</h1>
+					<h1 class="docs-heading">Kurulum</h1>
 					<section class="docs-intro">
 
 						<p>Bu kısımda eklentinin nasıl doğru bir şekilde yapılandırılıp kurulabileceğine ayrıntılı
@@ -412,7 +412,7 @@
 
 			<article class="docs-article" id="section-5">
 				<header class="docs-header">
-					<h1 class="docs-heading">Eklenebilecekler</h1>
+					<h1 class="docs-heading">Gelecek Sürümler</h1>
 					<section class="docs-intro">
 						<p>Bu uygulama Havelsan Express Liman MYS Fikir Yarışması süresince geliştirilmiştir. Liman MYS
 							Core'a herhangi bir müdahale edilmeden tasarlanmıştır. Aşağıda geliştirilebilecek uygulamayı
@@ -422,25 +422,17 @@
 							<li><b>İki adımlı kimlik doğrulama (2fa)</b>: Uygulamayı ilk defa kurduğumuzda en çok
 								ilgimizi çeken uygulama üzerinde herhangi bir authentication faktörünün bulunmamasıydı.
 								Core'a müdahale edemediğimizden dolayı herhangi bir authentication eklemedik. </li>
-							<li><b></b></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li><b>Kullanıcı Engelleme</b>: İçerde zararlı bir kullanıcı tespit edildiğinde otomatik olarak sistem tarafından banlanır.</li>
+							<li><b>Liman MYS Sürüm Kontroli</b>: Liman MYS üzerinde sürüm değişikliği olduğunda Telegram üzerinden sunucu yöneticisine izin verilebilir. Core müdehalesi yasak olduğundan ve uygulama bize böyle bir arayüz sunmadığından gerçekleştirilemedi.</li>
+							<li><b>Tek Bot Çoklu Sunucu</b>: Her sunucu için farklı bot oluşturmak yerine işlem yapılacak sunucu seçilerek işlem yaptırılabilinir.</li>
+							<li><b>Whitelist İp Bloğuna Ekleme</b>: İstenirse sisteme yanlızca belirli iplerden giriş sağlanabilir. Eğer yeni bir ip adresi eklenecekse bu işlem TeleLiman üzerinde yürütülebilir.</li>
+							<li><b>Pardus Liman Edition</b>: Liman kurulu sunucularda başka hiçbir işlem yapılmayacağı varsayıldığından limanın yüklü olarak geldiği bir .iso paketi hazırlanabilir.</li>
 
 						</ol>
 						</p>
 					</section>
 					<!--//docs-intro-->
 				</header>
-
-				</footer>
 		</div>
 	</div>
 	</div>

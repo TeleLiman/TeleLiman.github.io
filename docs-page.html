@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TeleLiman - Use Port MYS over the phone</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="TeleLiman - Use Port MYS over the phone">
+	<meta name="author" content="TeleLiman">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+	<link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body class="docs-page">
+	<header class="header fixed-top">
+		<div class="branding docs-branding">
+			<div class="container-fluid position-relative py-2">
+				<div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
+						type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2"
+								src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Tele<span
+									class="text-alt">Liman</span></span></a></div>
+				</div>
+				<!--//docs-logo-wrapper-->
+				<div class="docs-top-utilities d-flex justify-content-end align-items-center">
+					<div class="top-search-box d-none d-lg-flex">
+						<form class="search-form">
+							<input type="text" placeholder="Search the TeleLiman..." name="search"
+								class="form-control search-input">
+							<button type="submit" class="btn search-btn" value="Search"><i
+									class="fas fa-search"></i></button>
+						</form>
+					</div>
+
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+					</ul>
+					<!--//social-list-->
+					<a href="#Buraya Liman MYS kodumuzu nasıl indirebilinecek sayfa gelcek"
+						class="btn btn-primary d-none d-lg-flex">Download</a>
+				</div>
+				<!--//docs-top-utilities-->
+			</div>
+			<!--//container-->
+		</div>
+		<!--//branding-->
+	</header>
+	<!--//header-->
+
+
+	<div class="docs-wrapper">
+		<div id="docs-sidebar" class="docs-sidebar">
+			<div class="top-search-box d-lg-none p-3">
+				<form class="search-form">
+					<input type="text" placeholder="Search the TeleLiman..." name="search"
+						class="form-control search-input">
+					<button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<nav id="docs-nav" class="docs-nav navbar">
+				<ul class="section-items list-unstyled nav flex-column pb-3">
+					<li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
+								class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Bu Uygulama Nedir?</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Uygulamanın avantajları
+							nelerdir?</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
+								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Telegram Botunun Ayarlanması</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Otomatik kurulum</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Manuel kurulum</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span
+								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Kullanım</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Fonksiyonlar</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Çökme Raporu</a></li>
+
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span
+								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Geliştiriciler
+							İçin</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Dosya yapısı</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Çalışma Mantığı</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Helpers</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-4">Güvenlik</a></li>
+
+				</ul>
+
+				<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span
+							class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Eklenebilecekler</a>
+				</li>
+
+				</ul>
+			</nav>
+			<!--//docs-nav-->
+		</div>
+		<!--//docs-sidebar-->
+		<div class="docs-content">
+			<div class="container">
+				<article class="docs-article" id="section-1">
+					<header class="docs-header">
+						<h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 17.05.2022</span>
+						</h1>
+						<section class="docs-intro">
+							<p> Uygulama LimanMYS kullanıcılarının telefon üzerinden hızlı bir şekilde daha öncesinde
+								yapılandırılmış serverlarına hızlı ve basit bir erişim sağlayan PHP ve Python ile
+								yazılmış bir eklentidir.</p>
+						</section>
+						<h5>Helper.php</h5>
+						<p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded"><code class="json hljs"> print_r("Uygulamanın çalıştırılması kullanımı hakkında bilgiler verilecektir.")
+
+
+</code></pre>
+						</div>
+						<!--//docs-code-block-->
+
+
+					</header>
+					<section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">Bu uygulama nelere yardımcı olur?</h2>
+						<p>Sistem yöneticilerinin işlerini kolaylaştırmak amacıyla yazılmıştır. </p>
+						<h5>Uygulama:</h5>
+						<ol>
+							<li>Önceden eklentinin eklediği servislerde update, reboot, shutdown methodlarının uygulama
+								üzerinde çalışması</li>
+							<li>Eklenmiş olan servislerin start, stop ve status işlemlerinin yapılmasını sağlaması</li>
+							<li>Herhangi bir çökme durumunda sorunun anında Sistem Yöneticisine bildirilmesi
+							</li>
+						</ol>
+						<p>Odaklanılmıştır.</p>
+						<br><br><br>
+						<h5>Geliştirici Notu</h5>
+						<div class="callout-block callout-block-info">
+
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder me-1">
+										<i class="fas fa-info-circle"></i>
+									</span>
+									<!--//icon-holder-->
+									Note
+								</h4>
+								<p>Uygulama hızlı bir şekilde geliştirildiğinden dolayı sorunların tespiti konusunda
+									daha fazla düşünülebilir. Geliştirilen dizayn yapısı hızlı bir şekilde
+									geliştirilmeye müsaittir.
+								</p>
+							</div>
+							<!--//content-->
+
+
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Uygulamanın avantajları nelerdir?</h2>
+						<p>Kullanılan sistemlerin telefon erişimi sayesinde hızlıca görüntülenebilmesi, plugin üzerinde
+							ufak değişikliklerle her ihtiyaca uygun bir bot tasarlanabilmesini sağlar.</p>
+						<h5 class="mt-5">Örnek vermemiz gerekirse:</h5>
+						<ol>
+							<li>Uygulama bir helper sayesinde kullanıcıdan gelen istekler doğrultusunda betikler
+								çalıştırır. Betiklerin oluşturulabilmesi ve bot üzerine eklenebilmesi oldukça basittir.
+							</li>
+							<li>Telegram üzerinden çıkış sağlandığından dolayı uygulama üzerine gönderilebilecek
+								istekler başka bir güvenlik üzerinden daha geçer bu sayede uygulamaya ekstra güvenlik
+								sağlar. (Güvenlik konusuna "Geliştiriciler için" kısmında daha detaylı değinilecektir.)
+							</li>
+							<li>Sunucuların bakımların kişilere TeleLiman uygulaması üzerinden rahatlıkla
+								dağıtılabilmesini
+								sağlar.
+							</li>
+						</ol>
+
+			</div>
+			<!--//gallery-->
+
+
+
+			</section>
+			<!--//section-->
+
+
+
+			</section>
+
+			</article>
+
+			<article class="docs-article" id="section-2">
+				<header class="docs-header">
+					<h1 class="docs-heading">Installation</h1>
+					<section class="docs-intro">
+
+						<p>Bu kısımda eklentinin nasıl doğru bir şekilde yapılandırılıp kurulabileceğine ayrıntılı
+							şekilde girilecektir.</p>
+					</section>
+					<!--//docs-intro-->
+				</header>
+				<section class="docs-section" id="item-2-1">
+					<h2 class="section-heading">Telegram Botunun oluşturulması</h2>
+					<ol>
+						<li>
+							Telegram üzerinden '@BotFather' botu bulunur. Bu bota /start komutu verilerek bot
+							kullanılmaya başlanır.
+						</li>
+						<li>
+							/newbot komutu kullanılır. İlk aşamada bota bir isim verilir. Bu isim kullanıcı adı değil
+							botun ismidir.
+						</li>
+						<li>
+							Sonrasında bota benzersiz bir kullanıcı adı seçilmelidir. Bota seçilen kullanıcı adı '*Bot'
+							veya '*_bot' yapısına uygun olarak belirlenmelidir. Örneğin 'test123a_bot' 'test123aBot'
+							gibi...
+						</li>
+						<li>
+							Sonrasında @BotFather bize http API token'ımızı verir. Bu token uygulamanın diğer
+							aşamalarında bize yardımcı olacaktır bu yüzden not almanız önerilir.
+						</li>
+
+					</ol>
+				</section>
+
+				<section class="docs-section" id="item-2-2">
+					<h2 class="section-heading">Otomatik kurulum</h2>
+					<ol>
+						<li>
+							<a href="https://teleliman.github.io/download/install.sh">install.sh</a> dosyası sunucu
+							üzerine indirilir ve çalıştırılır.
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="json hljs"> wget https://teleliman.github.io/download/install.sh 
+ ./install.sh</code></pre>
+							</div>
+						</li>
+
+						<li>
+							Liman MYS arayüzü üzerine giriş yapılarak ilgili sunucuya ilgili eklenti eklenir. <a
+								href="https://docs.liman.dev/kullanim-kilavuzu/liman-kurulumu/eklenti-kurulumu-ve-guencellemeler">Liman
+								MYS eklenti kurulum dokumanı</a>
+						</li>
+						<li>
+							Yan panelden ilgili sunucu seçilerek sunucunun altındaki panelde bulunan telegram uygulaması
+							seçilir.
+							Gelen ekrandan telegram_token, telegram_username ve yönetilmek istenen sunucunun root
+							şifresi girilir.
+						</li>
+						<li>
+							Sonra yan panelde bulunan eklenti ismine tıklanır. Ekranda bulunan 'Konfigure et' butonuna
+							tıklanmasının ardından ilgili sunucu yeniden başlatılır.
+						</li>
+
+					</ol>
+				</section>
+
+				<!--//section-->
+				<section class="docs-section" id="item-2-3">
+					<h2 class="section-heading">Manuel Kurulum</h2>
+					<ol>
+						<li>
+							Sunucu üzerindeki bekleyen güncelleştirmeler yapılır.
+							<div class="docs-code-block">
+								<pre
+									class="shadow-lg rounded"><code class="json hljs"> sudo apt update & sudo apt upgrade -y</code></pre>
+
+						</li>
+
+						<li>
+							Gerekli uygulamaların kurulması
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="json hljs"> sudo apt install python3, python3-pip, git, wget, python3-paramiko
+ pip3 install requests, json</code></pre>
+
+						</li>
+
+						<li>
+							Eklenti dosyalarının sunucu üzerine indirilmesi
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="json hljs"> git clone https://github.com/TeleLiman/TelelimanExtension.git /liman/extensions 
+ mv TelelimanExtension/ teleliman/
+								</code></pre>
+						</li>
+						<li>
+							Servis komutlarının girilmesi
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="json hljs"> echo 'nohup python3 /liman/extensions/teleliman/scripts/main.py > /dev/null 2>&1 &' > /root/service.sh
+ wget -P /etc/systemd/system/ https://teleliman.github.io/download/teleliman.service
+ systemctl daemon-reload
+ systemctl enable teleliman.service
+ systemctl start teleliman.service</code></pre>
+						</li>
+						<li>
+							Liman MYS arayüzü üzerine giriş yapılarak ilgili sunucuya ilgili eklenti eklenir. <a
+								href="https://docs.liman.dev/kullanim-kilavuzu/liman-kurulumu/eklenti-kurulumu-ve-guencellemeler">Liman
+								MYS eklenti kurulum dokumanı</a>
+						</li>
+						<li>
+							Yan panelden ilgili sunucu seçilerek sunucunun altındaki panelde bulunan telegram uygulaması
+							seçilir.
+							Gelen ekrandan telegram_token, telegram_username ve yönetilmek istenen sunucunun root
+							şifresi girilir.
+						</li>
+						<li>
+							Sonra yan panelde bulunan eklenti ismine tıklanır. Ekranda bulunan 'Konfigure et' butonuna
+							tıklanmasının ardından ilgili sunucu yeniden başlatılır.
+						</li>
+					</ol>
+				</section>
+
+			</article>
+			<!--//docs-article-->
+
+
+			<article class="docs-article" id="section-3">
+				<header class="docs-header">
+					<h1 class="docs-heading">Kullanım</h1>
+					<section class="docs-intro">
+						<p>Bu kısımda ilgili servislerin nasıl kullanılabileceğine değinilmiştir. Servis yapısı gereği
+							geliştirilmeye açıktır. Aşağıda eklenen komutlar örnek olarak tasarlanmıştır</p>
+					</section>
+					<!--//docs-intro-->
+				</header>
+				<section class="docs-section" id="item-3-1">
+					<h2 class="section-heading">Fonksiyonlar</h2>
+					<p><b>/shutdown</b>: İlgili sunucunun kapatılmasını sağlar.</p>
+					<p><b>/reboot</b>: İlgili sunucunun yeniden başlatılmasını sağlar.</p>
+					<p><b>/update</b>: İlgili sunucunun güncellenmesini sağlar.</p>
+					<p><b>/startservice</b>: İlgili sunucudaki bir servisinin başlatılmasını sağlar.</p>
+					<p><b>/stopservice</b>: İlgili sunucudaki bir servisinin kapatılmasını sağlar.</p>
+					<p><b>/statusservice</b>: İlgili sunucudaki bir servisinin durumunun sorgulanmasını sağlar.</p>
+					<p><b>/uname</b>: İlgili sunucunun uname fonksiyonun çalıştırılmasını sağlar.</p>
+				</section>
+				<!--//section-->
+
+				<section class="docs-section" id="item-3-2">
+					<h2 class="section-heading">Çökme Raporu</h2>
+					<p>Herhangi bir sunucunda çökme durumu oluştuğunda uygulama otomatik olarak app üzerinden mesaj
+						gönderir.</p>
+				</section>
+			</article>
+			<!--//docs-article-->
+
+			<article class="docs-article" id="section-4">
+				<header class="docs-header">
+					<h1 class="docs-heading">Geliştiriciler İçin</h1>
+					<section class="docs-intro">
+						<p>Bu kısımda uygulamanın yapısı anlatılacaktır. Yazılan eklentiyi manipüle ederek kendi
+							fonksiyonlarınızı ekleyebilir istekleriniz doğrultusunda geliştirebilirsiniz.</p>
+					</section>
+				</header>
+				<section class="docs-section" id="item-4-1">
+					<h2 class="section-heading">Dosya Yapısı</h2>
+					<p>Liman MYS'nin belirttiği dosya yapısı aktif olarak kullanılmaktadır. <a
+							href="https://docs.liman.dev/eklenti-gelistirme/genel-bilgiler/dizin-yapisi">LimanMYS dosya
+							yapısı</a> Artı olarak /root/service.sh isminde başlangıç servisimiz mevcuttur.</p>
+				</section>
+				<!--//section-->
+
+				<section class="docs-section" id="item-4-2">
+					<h2 class="section-heading">Çalışma Mantığı</h2>
+					<p>Liman MYS üzerinden server() ve extensionDb() ile Liman MYS üzerinden alınan bilgiler
+						scripts/settings.json dosyası içine işlenir. scripts/main.py dosyası json içindeki verileri
+						kullanarak uzak sunuculara ssh yardımıyla bağlanır. Telegramdan gelen istekleri bu uzak sunucu
+						üzerinde gerçekleştirir.</p>
+				</section>
+				<!--//section-->
+
+				<section class="docs-section" id="item-4-3">
+					<h2 class="section-heading">Helpers</h2>
+					<p>
+					<ol>
+						<li>
+							Telegram üzerinde bulunan sendMessage() fonksiyonu, helpers içine eklenmiş ve böylece tüm
+							uygulama çıktıları mesaj iletebilme özelliğine sahip olmuştur (Bkz. scripts/Helpers.py)
+						</li>
+						<li>
+							Telegram üzerinde bulunan getUpdates() fonksiyonu, helpers içine eklenmiş ve böylece tüm
+							uygulama telegram üzerinden veri okuma özelliğine sahip olmuştur (Bkz. scripts/Helpers.py)
+						</li>
+					</ol>
+					</p>
+				</section>
+				</section>
+				<!--//section-->
+			</article>
+			<!--//docs-article-->
+
+			<article class="docs-article" id="section-5">
+				<header class="docs-header">
+					<h1 class="docs-heading">Eklenebilecekler</h1>
+					<section class="docs-intro">
+						<p>Bu uygulama Havelsan Express Liman MYS Fikir Yarışması süresince geliştirilmiştir. Liman MYS
+							Core'a herhangi bir müdahale edilmeden tasarlanmıştır. Aşağıda geliştirilebilecek uygulamayı
+							daha ileriye taşıyacak fikirler developerlar ve juri için yazılmıştır.</p>
+						<p>
+						<ol>
+							<li><b>İki adımlı kimlik doğrulama (2fa)</b>: Uygulamayı ilk defa kurduğumuzda en çok
+								ilgimizi çeken uygulama üzerinde herhangi bir authentication faktörünün bulunmamasıydı.
+								Core'a müdahale edemediğimizden dolayı herhangi bir authentication eklemedik. </li>
+							<li><b></b></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+
+						</ol>
+						</p>
+					</section>
+					<!--//docs-intro-->
+				</header>
+
+				</footer>
+		</div>
+	</div>
+	</div>
+	<!--//docs-wrapper-->
+
+
+	<!-- Javascript -->
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+	<!-- Page Specific JS -->
+	<script src="assets/plugins/smoothscroll.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+	<script src="assets/js/highlight-custom.js"></script>
+	<script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+	<script src="assets/js/docs.js"></script>
+
+</body>
+
+</html>
